@@ -1,0 +1,87 @@
+# --- Data & trained models (NOT included in submission archive) ---
+*.h5
+*.keras
+*.tflite
+*.pb
+*.ckpt
+*.pth
+*.pt
+*.onnx
+saved_model/
+checkpoints/
+logs/
+runs/
+mlruns/
+
+# TensorFlow Datasets cache
+tensorflow_datasets/
+tfds/
+data/
+datasets/
+*.tfrecord
+*.tfrecord-*
+
+# Common dataset archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.envrc
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+.eggs/
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checkers / linters
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# --- IDE / editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Claude Code workspace ---
+.claude/
